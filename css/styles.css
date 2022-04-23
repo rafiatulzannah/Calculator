@@ -1,0 +1,60 @@
+body{
+  background-color: #FAEEE0!important;
+}
+
+.headings1{
+  font-family: 'Lobster', cursive;
+  font-size: 5rem;
+  margin-top:5%;
+  text-align: center;
+  color: #3A6351;
+  text-shadow: 2px 2px #FFD523;
+}
+
+.pClass{
+  font-family: 'Lobster', cursive;
+  font-size: 3rem;
+  text-align: center;
+  color: #3A6351;
+  text-shadow: 2px 2px #FFD523;
+}
+
+
+input[type="button"]
+        {
+        background-color: #CDF2CA;
+        color: black;
+        border: solid black 3px;
+        border-radius: 5px;
+        width:110%;
+        height:3rem;
+        }
+
+        input[type="text"]
+        {
+        background-color:white;
+        border-radius: 5px;
+        border: solid black 3px;
+        width:103%;
+        height:3rem;
+        }
+input[type="button"]:hover.hoverStyle {
+  background-color: #FEF1E6;
+}
+.container{
+  margin-top: 3.5%;
+  padding-left: 25%!important;
+  padding-right: 25%!important;
+}
+.table{
+  background-color: #3A6351;
+}
+
+#footer{
+  position:static;
+  background-color: #3A6351;
+  margin-top:5%;
+  width: 100%;
+  padding: 3% 0 3%;
+  text-align: center;
+}

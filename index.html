@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://kit.fontawesome.com/e70a782660.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+</head>
+
+<body>
+  <h1 class="headings1">Simply Calculate</h1>
+  <p class="pClass">Easy to Use!!</p>
+  <div class="container">
+    <table border="2" class="table">
+      <tr>
+        <td colspan="3"><input type="text" name="text" id="result"></td>
+        <td><input type="button" name="c" value="c" onclick="clr()"></td>
+      </tr>
+      <tr>
+        <td><input class="hoverStyle" type="button" name="1" value="1" onclick="dis('1')"></td>
+        <td><input class="hoverStyle" type="button" name="2" value="2" onclick="dis('2')"></td>
+        <td><input class="hoverStyle" type="button" name="3" value="3" onclick="dis('3')"></td>
+        <td><input class="hoverStyle" type="button" name="/" value="/" onclick="dis('/')"></td>
+      </tr>
+      <tr>
+        <td><input class="hoverStyle" type="button" name="4" value="4" onclick="dis('4')"></td>
+        <td><input class="hoverStyle" type="button" name="5" value="5" onclick="dis('5')"></td>
+        <td><input class="hoverStyle" type="button" name="6" value="6" onclick="dis('6')"></td>
+        <td><input class="hoverStyle" type="button" name="*" value="*" onclick="dis('*')"></td>
+      </tr>
+      <tr>
+        <td><input class="hoverStyle" type="button" name="7" value="7" onclick="dis('7')"></td>
+        <td><input class="hoverStyle" type="button" name="8" value="8" onclick="dis('8')"></td>
+        <td><input class="hoverStyle" type="button" name="9" value="9" onclick="dis('9')"></td>
+        <td><input class="hoverStyle" type="button" name="-" value="-" onclick="dis('-')"></td>
+      </tr>
+      <tr>
+        <td><input class="hoverStyle" type="button" name="." value="." onclick="dis('.')"></td>
+        <td><input class="hoverStyle" type="button" name="0" value="0" onclick="dis('0')"></td>
+        <td><input class="hoverStyle" type="button" name="=" value="=" onclick="solve()"></td>
+        <td><input class="hoverStyle" type="button" name="+" value="+" onclick="add()"></td>
+      </tr>
+    </table>
+  </div>
+
+
+  <footer class="white-section" id="footer">
+      <div class="container-fluid">
+        <i class="iconn fab fa-twitter"></i>
+        <i class="iconn fas fa-envelope"></i>
+        <i class="iconn fab fa-facebook"></i>
+        <i class="iconn fab fa-instagram"></i>
+        <p>© Copyright 2021 Simply Calculate</p>
+      </div>
+    </footer>
+  <script src="js/index.js" charset="utf-8"></script>
+</body>
+
+</html>
